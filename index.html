@@ -5,63 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Home page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Pagina inicial</title>
 </head>
 
-<body>
-    <div class="flex justify-content-center m-3">
-        <h1>Bom dia!</h1>
+<body class="bg-dark text-light">
+    <div class="text-center m-3">
+        <h1>Olá! Bem-vindo</h1>
     </div>
-    <div class="flex-body justify-content-around align-center my-5">
-        <div class="flex flex-col">
-            <img src="/img/dog-floating.gif" alt="Dog floating">
-        </div>
-        <div class="flex flex-col">
+    <div class="container position-absolute top-50  start-50 translate-middle">
+        <div class="row">
+            <div class="col">
+                <img class="img-thumbnail rounded" src="/img/dog-floating.gif" alt="Dog floating">
+            </div>
+            <div class="col">
+                <h2 class="p-4">Links rápidos</h2>
+                <div class="row">
+                    <div class="col">
+                        <ul class="list-group">
 
-            <h2>Links rápidos</h2>
-            <div class="flex flex-row">
-                <div class="flex flex-col mx-3">
-                    <ul>
-                        <li>
-                            <a href="https://outlook.office365.com/mail/">
+                            <a class="list-group-item text-decoration-none text-dark"
+                                href="https://outlook.office365.com/mail/">
                                 E-mail da Partnervision
                             </a>
-                        </li>
-                        <li>
-                            <a href="https://www.ptc.com/en/support/">
+
+                            <a class="list-group-item text-decoration-none text-dark"
+                                href="https://www.ptc.com/en/support/">
                                 PTC support
                             </a>
-                        </li>
-                        <li>
-                            <a href="http://windchill.partnervision.com.br/">
+
+                            <a class="list-group-item text-decoration-none text-dark"
+                                href="http://windchill.partnervision.com.br/">
                                 Windchill da Partnervision
                             </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="flex flex-col mx-3">
-                    <ul>
-                        <li>
-                            <a href="https://mail.tutanota.com/">
+
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="list-group">
+
+                            <a class="list-group-item text-decoration-none text-dark" href="https://mail.tutanota.com/">
                                 E-mail pessoal
                             </a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/">
+
+                            <a class="list-group-item text-decoration-none text-dark" href="https://www.youtube.com/">
                                 Youtube
                             </a>
-                        </li>
-                        <li>
-                            <a href="https://www.ahnegao.com.br/">
+
+                            <a class="list-group-item text-decoration-none text-dark"
+                                href="https://www.ahnegao.com.br/">
                                 Ah negão
                             </a>
-                        </li>
-                    </ul>
+
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
