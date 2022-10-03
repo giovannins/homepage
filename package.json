@@ -1,0 +1,24 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovannins/homepage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giovannins/homepage/issues"
+  },
+  "homepage": "https://github.com/giovannins/homepage#readme",
+  "dependencies": {
+    "prettier": "^2.7.1"
+  }
+}
